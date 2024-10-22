@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Logo from '@/public/logo.png';
 
 export default function Footer() {
@@ -9,9 +10,9 @@ export default function Footer() {
 				<p>© Oli Harris 2023</p>
 			</div>
 			<ul className="flex justify-center gap-4">
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Linkedin</a></li>
-				<li><a href="#">Mail</a></li>
+				<li><Link href="#">Twitter</Link></li>
+				<li><Link href="#">Linkedin</Link></li>
+				<li><Link href="#">Mail</Link></li>
 			</ul>
 		</footer>
 	)

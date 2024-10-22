@@ -1,5 +1,6 @@
 import { v4 as uuid_v4 } from 'uuid';
 import Image from 'next/image';
+import Link from 'next/link';
 import projects from '@/app/data/projects.json';
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
 						let pathResource = `/${project.url}`;
 						return (
 							<article key={uuid_v4()}>
-								<a href="#">
+								<Link href="#">
 									{
 										project.type === 'image'
 										? <Image
@@ -28,7 +29,7 @@ export default function Home() {
                     <span className="inline-block">{project.name}</span>
                     { project.comming && <span className="inline-block text-neutral">Comming soon</span> }
                   </div>
-								</a>
+								</Link>
 							</article>
 						)
 					})
