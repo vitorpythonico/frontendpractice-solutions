@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Eurosport",
+		"url": "eurosport-logo.avif"
+	},
+  {
+    "name": "R/GA",
+    "url": "rga-logo.avif"
+  },
+  {
+    "name": "Nike",
+    "url": "nike-logo.avif"
+  },
+  {
+    "name": "Olympics",
+    "url": "olympics-logo.avif"
+  },
+  {
+    "name": "Schuh",
+    "url": "schuh-logo.avif"
+  },
+  {
+    "name": "Google",
+    "url": "google-logo.avif"
+  },
+  {
+    "name": "IBM",
+    "url": "ibm-logo.avif"
+  },
+  {
+    "name": "Koto",
+    "url": "koto-logo.avif"
+  },
+  {
+    "name": "Vercel",
+    "url": "vercel-logo.avif"
+  },
+  {
+    "name": "Muscle Gun",
+    "url": "muscleGun-logo.avif"
+  },
+  {
+    "name": "AKQA",
+    "url": "akqa-logo.avif"
+  },
+  {
+    "name": "World Gold Council",
+    "url": "worldGoldCouncil-logo.avif"
+  },
+  {
+    "name": "Channel 5",
+    "url": "channel5-logo.avif"
+  },
+  {
+    "name": "Correlated",
+    "url": "correlated-logo.avif"
+  },
+  {
+    "name": "here",
+    "url": "here-logo.png"
+  },
+  {
+    "name": "Zero Light",
+    "url": "zeroLight-logo.avif"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "workTime": { "begin": 2023, "end": "Present" },
+    "company": "NativeState",
+    "jobRole": "Design Director",
+    "contract": "Co-Founder"
+  },
+  {
+    "workTime": { "begin": 2017, "end": "Present" },
+    "company": "OH.STUDIO",
+    "jobRole": "Freelancer Designer",
+    "contract": "Director"
+  },
+  {
+    "workTime": { "begin": 2021, "end": "Present" },
+    "company": "Friendly Studio",
+    "jobRole": "Lead Product Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2022, "end": null },
+    "company": "R/GA",
+    "jobRole": "Senior Visual Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2021, "end": null },
+    "company": "R/GA",
+    "jobRole": "Senior Visual Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2021, "end": null },
+    "company": "AKQA",
+    "jobRole": "Senior Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2020, "end": null },
+    "company": "AKQA",
+    "jobRole": "Senior Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2019, "end": null },
+    "company": "UI Centric",
+    "jobRole": "Senior Product Designer",
+    "contract": "Freelance"
+  },
+  {
+    "workTime": { "begin": 2017, "end": null },
+    "company": "Agency TK",
+    "jobRole": "Senior Digital Designer",
+    "contract": "Permanent"
+  },
+  {
+    "workTime": { "begin": 2012, "end": null },
+    "company": "Agency TK",
+    "jobRole": "Digital Designer",
+    "contract": "Permanent"
+  },
+  {
+    "workTime": { "begin": 2009, "end": null },
+    "company": "Next Level",
+    "jobRole": "Digital Designer",
+    "contract": "Permanent"
+  },
+  {
+    "workTime": { "begin": 2008, "end": null },
+    "company": "Next Level",
+    "jobRole": "Junior Digital Designer",
+    "contract": "Permanent"
+  }
+]
