@@ -7,7 +7,7 @@ export default function Header() {
 	const pathname = usePathname();
 
 	return (
-		<header className="fixed left-[50%] right-[50%] z-10 mt-6 text-sm font-sans">
+		<header className="fixed left-[50%] right-[50%] top-5 z-10 text-sm font-sans md:top-8">
 			<nav className="flex justify-center">
 				<ul className="flex items-center gap-4 p-1 rounded-full bg-secundary backdrop-blur-md">
 					<li className={`py-2.5 px-6 rounded-full ${pathname === '/' && 'bg-white'}`}><Link href="/">Home</Link></li>
