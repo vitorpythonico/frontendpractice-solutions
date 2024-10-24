@@ -10,9 +10,9 @@ export default function Footer() {
 				<p>© Oli Harris 2023</p>
 			</div>
 			<ul className="flex justify-center gap-4">
-				<li><Link href="#">Twitter</Link></li>
-				<li><Link href="#">Linkedin</Link></li>
-				<li><Link href="#">Mail</Link></li>
+				<li><Link href="#" className="hover:text-neutral">Twitter</Link></li>
+				<li><Link href="#" className="hover:text-neutral">Linkedin</Link></li>
+				<li><Link href="#" className="hover:text-neutral">Mail</Link></li>
 			</ul>
 		</footer>
 	)
