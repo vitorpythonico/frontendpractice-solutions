@@ -3,11 +3,12 @@ import { Lock, ArrowUpRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import projects from '@/app/data/projects.json';
+import ScrollAnimation from '@/components/ScrollAnimation';
 
 export default function Home() {
 	return (
 		<main className="mx-4 font-sans">
-			<section className="pt-56 pb-40 flex flex-col items-center gap-10	">
+			<ScrollAnimation className="pt-56 pb-40 flex flex-col items-center gap-10">
 				<h1 className="text-center text-4xl leading-tight font-medium
 					md:text-5xl md:max-w-[38rem] md:leading-tight
 					lg:text-7xl lg:max-w-[45rem] lg:leading-snug"
@@ -20,8 +21,8 @@ export default function Home() {
 					<span className="inline py-2 px-3 rounded-full bg-secundary">Product</span>
 					<span className="inline py-2 px-3 rounded-full bg-secundary">Design Systems</span>
 				</div>
-			</section>
-			<section className="flex flex-col gap-6 md:grid md:grid-cols-2 md:mx-4 xl:max-w-[80rem] xl:mx-auto">
+			</ScrollAnimation>
+			<ScrollAnimation className="flex flex-col gap-6 md:grid md:grid-cols-2 md:mx-4 xl:max-w-[80rem] xl:mx-auto">
 				{
 					projects.map(project => {
 						let pathResource = `/${project.url}`;
@@ -35,9 +36,9 @@ export default function Home() {
                         	className={`w-full h-full rounded-xl md:duration-300 md:hover:blur-sm ${project.comming && 'cursor-auto'}`}
                       	/>
                     	</Link>
-                    : <video autoPlay={true} loop={true} src={pathResource}
+                    : <video autoPlay loop src={pathResource}
                     		className="w-full rounded-xl h-full object-cover
-                    		md:duration-300 md:hover:blur-sm peer"
+                    		md:duration-300 md:hover:blur-sm md:hover:cursor-pointer peer"
                   		>
                     		Your browser does not support the video tag.
                   		</video>
@@ -66,13 +67,13 @@ export default function Home() {
 						)
 					})
 				}
-			</section>
-			<section className="text-center py-32 lg:py-52">
+			</ScrollAnimation>
+			<ScrollAnimation className="text-center py-32 lg:py-52">
 				<h2 className="text-3xl font-medium md:text-4xl">
 					<span className="block">Let's work together.</span>
 					<span className="text-neutral hover:opacity-60"><Link href="mailto:oli@oh.studio">Get in touch.</Link></span>
 				</h2>
-			</section>
+			</ScrollAnimation>
 		</main>
 	)
 };
